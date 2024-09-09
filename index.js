@@ -5,11 +5,24 @@ function add(a, b) {
   function subtract(a, b) {
     return a - b;
   }
-  
+    
+    /**
+     * @param {number} a
+     * @param {number} b
+     * @returns {number}
+     */
+
   function multiply(a, b) {
     return a * b;
   }
-  
+    
+    /**
+     * @param {number} a
+     * @param {number} b
+     * @returns {number}
+     */
+
+
   function divide(a, b) {
     if (b === 0) {
       throw new Error("Division by zero");
@@ -17,6 +30,12 @@ function add(a, b) {
     return a / b;
   }
   
+    /**
+     * @param {number} a
+     * @param {number} b
+     * @returns {number}
+     */
+
   function toUpperCase(str) {
     return str.toUpperCase();
   }
@@ -24,7 +43,13 @@ function add(a, b) {
   function toLowerCase(str) {
     return str.toLowerCase();
   }
-  
+    
+    /**
+     * @param {number} a
+     * @param {number} b
+     * @returns {number}
+     */
+
   function isEven(num) {
     return num % 2 === 0;
   }
@@ -40,7 +65,13 @@ function add(a, b) {
   function containsElement(arr, element) {
     return arr.includes(element);
   }
-  
+    
+    /**
+     * @param {number} a
+     * @param {number} b
+     * @returns {number}
+     */
+    
   function sumArray(arr) {
     return arr.reduce((sum, val) => sum + val, 0);
   }
